@@ -1,0 +1,9 @@
+module.exports = {
+    ACCESS_KEY: process.env.JWT_ACCESS_SECRET_KEY,
+    ACCESS_EXPIRATION: process.env.JWT_ACCESS_EXPIRATION_TIME,
+    REFRESH_KEY: process.env.JWT_REFRESH_SECRET_KEY,
+    REFRESH_EXPIRATION: process.env.JWT_REFRESH_EXPIRATION_TIME,
+    ALGORITHM: process.env.JWT_ALGORITHM,
+    ISSUER: process.env.JWT_ISSUER,
+    AUDIENCE: process.env.JWT_AUDIENCE,
+}
